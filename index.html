@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Yosia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0f172a; color: #e2e8f0; font-family: 'Courier New', Courier, monospace; }
+        .terminal-border { border: 1px solid #334155; }
+    </style>
+</head>
+<body class="p-8">
+
+    <header class="terminal-border p-4 mb-8 bg-slate-900 shadow-lg">
+        <h1 class="text-2xl text-green-400 font-bold">> Yosia@Arch-Axioo:~# whoami</h1>
+        <p class="mt-2 text-slate-400 italic text-sm">Junior C++ Developer | Linux Enthusiast | Future Japan Resident</p>
+    </header>
+
+<section id="about" class="mb-8 grid md:grid-cols-3 gap-6 items-start">
+        <div class="md:col-span-2">
+            <h2 class="text-xl text-blue-400 border-b border-blue-400 inline-block mb-4">-- ABOUT ME --</h2>
+            <p class="leading-relaxed text-sm">
+                Seorang praktisi IT muda yang terobsesi dengan efisiensi sistem dan logika pemrograman. 
+                Mahir dalam kustomisasi Arch Linux (Hyprland) dan sedang mendalami C++ serta Web Development. 
+                Memiliki mentalitas <span class="text-yellow-500 font-bold">"it is what it is"</span> dalam menghadapi tantangan teknis.
+            </p>
+        </div>
+        
+        <div class="p-2 bg-slate-800 terminal-border shadow-inner">
+            <video autoplay loop muted playsinline class="w-full h-auto object-cover border border-slate-700">
+                <source src="desktop_loop.mp4" type="video/mp4">
+            </video>
+            <p class="text-xs text-slate-500 mt-2 text-center">cat /var/log/desktop_showcase.mp4</p>
+        </div>
+    </section>
+
+    <section id="skills" class="mb-8">
+        <h2 class="text-xl text-blue-400 border-b border-blue-400 inline-block mb-4">-- SKILLS --</h2>
+        <div class="flex flex-wrap gap-2 mt-2">
+            <span class="bg-slate-800 border border-green-500 text-green-500 px-3 py-1 text-sm rounded">Arch Linux</span>
+            <span class="bg-slate-800 border border-green-500 text-green-500 px-3 py-1 text-sm rounded">C++ (GCC/Clang)</span>
+            <span class="bg-slate-800 border border-green-500 text-green-500 px-3 py-1 text-sm rounded">Neovim (LazyVim)</span>
+            <span class="bg-slate-800 border border-green-500 text-green-500 px-3 py-1 text-sm rounded">Networking Basics</span>
+        </div>
+    </section>
+
+</body>
+</html>
